@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+.nav-container{
+
+    width: 100%;
+    display: flex;
+    border: 5px solid rgb(234, 111, 23);
+    margin: 0px;
+}
+
+.logo-brand-parent{
+    display: flex;
+}
+
+
+.navbar ul{
+    background-color: black;
+    height: 30px;
+
+}
+
+.navbar li{
+    margin: 10px;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-left:60px;
+}
+
+
+.navbar a{
+    text-align: left:
+    width: 100%;
+    color: rgb(234, 111, 23);
+    display: block;
+    padding: 25px 20px;
+    font-family: arial;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.navbar a:hover{
+    color: white;
+    background-color: rgb(234, 111, 23);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.main-container{
+    width: 100%;
+    display: flex;
+
+}
+
+.content-img{
+    width:50%;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.first{
+       background-image: url("images/goat.jpg");
+        background-repeat: no-repeat;
+         background-size: 100%;
+
+
+
+}
+
+.second{
+       margin:0px;
+       background-image: url("images/goat.jpg");
+        background-repeat: no-repeat;
+         background-size: 100%;
+
+
+}
+
+body{
+    background-color: black;
+
+
+}
+.first{
+    margin: 20px;
+}
+
+
+.first h1{
+font-size: 60px;
+font-family: arial;
+font-weight: bold;
+text-align: center;
+padding-top: 100px;
+color: rgb(234, 111, 23);
+margin-bottom: 600px;
+
+}
+.first h2{
+font-size: 20px;
+font-family: arial;
+font-weight: bold;
+text-align: center;
+padding-top: 300px;
+color: rgb(234, 111, 23);
+margin-bottom: 600px
+
+}
+.second{
+    margin: 20px;
+}
+.second h1{
+    margin-bottom: 300px;
+}
+
+.second img{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left:550px;
+
+}
+
+.second p{
+    padding: 10px;
+    color: rgb(234, 111, 23);
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    margin: 0px;
+
+
+}
+
+
+
+
+.contact-img{
+    margin-left:800px;
+
+}
+.contact p{
+    color: rgb(234, 111, 23);
+    font-size: 25px;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-left:900px;
+}
+
+.footer p{
+padding-top: 20px;
+    background-color: rgb(234, 111, 23);
+    margin-bottom:0px;
+    color: white;
+    font-size: 10px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.footer a{
+    padding: 0px;
+    color: white;
+    background-color: rgb(234, 111, 23);
+    display: block;
+    text-align: center;
+     font-family: arial;
+}
+
+@media only screen and (min-width: 768px) {
+   .first{
+    width:1100px;
+    height:600px;
+    margin-left: 100px;
+    }
+
+    .second{
+    width:1100px;
+     margin-left:100px;
+     height: 400px
+     }
+
+     .nav-container{
+    background-color: black;
+    width: 1100px;
+    height:80px;
+    display: flex;
+    border: 0px solid rgb(234, 111, 23);
+
+    }
+
+    .contact p{
+    display: inline-block;
+    color: rgb(234, 111, 23);
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 60px;
+
+    line-height: 35px;
+
+}
+    .footer{
+     width: 100vh;
+     margin-top: 100px;
+    }
+     .contact p{
+      padding-bottom: 60px;
+     }
+
+     .contact{
+     height:200px;
+     margin-bottom: 200px;
+     }
+
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+
+    .main-container{
+    margin-top: 20px;
+    }
+
+    .nav-container{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    border: 2px solid rgb(234, 111, 23);
+    margin
+    }
+
+    .footer{
+    width: 200vh;
+    }
+
+
+    .footer p{
+    padding-top: 20px;
+    background-color: rgb(234, 111, 23);
+    margin-bottom:0px;
+    color: white;
+    font-size: 10px;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+    .footer a{
+    padding: 0px;
+    color: white;
+    background-color: rgb(234, 111, 23);
+    display: block;
+    text-align: center;
+     font-family: arial;
+}
+}
+
+
+
